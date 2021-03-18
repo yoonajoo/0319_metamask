@@ -153,7 +153,7 @@ $(document).ready(function() {
 
 
     $('#linkHome').click(function() { showView("viewHome") });
-    $('#linkSubmitDocument').click(function() { showView("viewSubmitDocument") });
+    $('#linkSubmitDocument').click(function() { showView("viewSubmitDocument"); showTable();  });
     $('#linkVerifyDocument').click(function() { showView("viewVerifyDocument") });
     $('#itemUploadButton').click(itemUploadButton);
     $('#showTableButton').click(showTable);
