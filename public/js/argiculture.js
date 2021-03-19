@@ -2,8 +2,8 @@ const { web3 } = window
 const selectedAddress = web3.eth.defaultAccount
 
 $(document).ready(function() {
-    const productRegistryContractAddress = '0x0Db33b813D9C129863C3e87C3450a2571441fD19';
-    const productRegistryContractABI = [
+    const productRegistryContractAddress = '0x7cCf2940016e14d523F22e03065040B166376F84';
+    const productRegistryContractABI =[
 		{
 			"constant": false,
 			"inputs": [
@@ -150,7 +150,6 @@ $(document).ready(function() {
 			"type": "function"
 		}
 	]
-
 
     $('#linkHome').click(function() { showView("viewHome") });
     $('#linkSubmitDocument').click(function() { showView("viewSubmitDocument"); showTable();  });
